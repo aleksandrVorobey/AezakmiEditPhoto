@@ -6,23 +6,85 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		AEF136062DB804BD00BA7C40 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEF136002DB804BD00BA7C40 /* Preview Assets.xcassets */; };
+		AEF136072DB804BD00BA7C40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEF136032DB804BD00BA7C40 /* Assets.xcassets */; };
+		AEF136082DB804BD00BA7C40 /* AezakmiEditPhotoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF136022DB804BD00BA7C40 /* AezakmiEditPhotoApp.swift */; };
+		AEF1360C2DB8054800BA7C40 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = AEF1360B2DB8054800BA7C40 /* FirebaseAuth */; };
+		AEF1360E2DB8054800BA7C40 /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = AEF1360D2DB8054800BA7C40 /* FirebaseCore */; };
+		AEF136102DB8054800BA7C40 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = AEF1360F2DB8054800BA7C40 /* FirebaseFirestore */; };
+		AEF136132DB8058B00BA7C40 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = AEF136122DB8058B00BA7C40 /* GoogleSignIn */; };
+		AEF136152DB8058B00BA7C40 /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = AEF136142DB8058B00BA7C40 /* GoogleSignInSwift */; };
+		AEF1361B2DB8088700BA7C40 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AEF1361A2DB8088700BA7C40 /* GoogleService-Info.plist */; };
+		AEF1361E2DB809D300BA7C40 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF1361D2DB809D300BA7C40 /* AppState.swift */; };
+		AEF136202DB80A1C00BA7C40 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF1361F2DB80A1C00BA7C40 /* AuthService.swift */; };
+		AEF136222DB80A7600BA7C40 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF136212DB80A7600BA7C40 /* MainView.swift */; };
+		AEF136242DB80A9700BA7C40 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF136232DB80A9700BA7C40 /* ImagePicker.swift */; };
+		AEF136282DB80ADF00BA7C40 /* ImageEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF136272DB80ADF00BA7C40 /* ImageEditorView.swift */; };
+		AEF1362A2DB80AEE00BA7C40 /* ImageEditorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF136292DB80AEE00BA7C40 /* ImageEditorViewModel.swift */; };
+		AEF1362D2DB80B1800BA7C40 /* EmailVerificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF1362C2DB80B1800BA7C40 /* EmailVerificationView.swift */; };
+		AEF1362F2DB80B3E00BA7C40 /* EmailVerificationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF1362E2DB80B3E00BA7C40 /* EmailVerificationViewModel.swift */; };
+		AEF136322DB80B6C00BA7C40 /* PasswordResetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF136312DB80B6C00BA7C40 /* PasswordResetView.swift */; };
+		AEF136342DB80B7A00BA7C40 /* PasswordResetViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF136332DB80B7A00BA7C40 /* PasswordResetViewModel.swift */; };
+		AEF136372DB80BA300BA7C40 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF136362DB80BA300BA7C40 /* RegisterView.swift */; };
+		AEF136392DB80BB000BA7C40 /* RegisterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF136382DB80BB000BA7C40 /* RegisterViewModel.swift */; };
+		AEF1363C2DB80C3700BA7C40 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF1363B2DB80C3700BA7C40 /* LoginView.swift */; };
+		AEF1363E2DB80C5B00BA7C40 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF1363D2DB80C5B00BA7C40 /* LoginViewModel.swift */; };
+		AEF136442DB80D2C00BA7C40 /* UIApplication+RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF136432DB80D2C00BA7C40 /* UIApplication+RootViewController.swift */; };
+		AEF136462DB80D6300BA7C40 /* Extensions - String+Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF136452DB80D6300BA7C40 /* Extensions - String+Validation.swift */; };
+		AEF136482DB8DFFC00BA7C40 /* CropFrameOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF136472DB8DFFC00BA7C40 /* CropFrameOverlay.swift */; };
+		AEF136932DB9299600BA7C40 /* Canvas.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF136922DB9299600BA7C40 /* Canvas.swift */; };
+		AEF137062DBA3F0200BA7C40 /* TextElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF137052DBA3F0200BA7C40 /* TextElement.swift */; };
+		AEF137082DBA3F4200BA7C40 /* TextEditingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF137072DBA3F4200BA7C40 /* TextEditingView.swift */; };
+		AEF1370A2DBA4C1300BA7C40 /* ImageFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF137092DBA4C1300BA7C40 /* ImageFilter.swift */; };
+		AEF1377D2DBA73CD00BA7C40 /* PrimaryTextFieldModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF1377C2DBA73CD00BA7C40 /* PrimaryTextFieldModifier.swift */; };
+		AEF137802DBA797100BA7C40 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF1377F2DBA797100BA7C40 /* MainViewModel.swift */; };
+		AEF137832DBA7BD300BA7C40 /* CGSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF137822DBA7BD300BA7C40 /* CGSize.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		AEF135EF2DB8037500BA7C40 /* AezakmiEditPhoto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AezakmiEditPhoto.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEF136002DB804BD00BA7C40 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AEF136022DB804BD00BA7C40 /* AezakmiEditPhotoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AezakmiEditPhotoApp.swift; sourceTree = "<group>"; };
+		AEF136032DB804BD00BA7C40 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AEF1361A2DB8088700BA7C40 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		AEF1361C2DB808BA00BA7C40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEF1361D2DB809D300BA7C40 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		AEF1361F2DB80A1C00BA7C40 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		AEF136212DB80A7600BA7C40 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		AEF136232DB80A9700BA7C40 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		AEF136272DB80ADF00BA7C40 /* ImageEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageEditorView.swift; sourceTree = "<group>"; };
+		AEF136292DB80AEE00BA7C40 /* ImageEditorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageEditorViewModel.swift; sourceTree = "<group>"; };
+		AEF1362C2DB80B1800BA7C40 /* EmailVerificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailVerificationView.swift; sourceTree = "<group>"; };
+		AEF1362E2DB80B3E00BA7C40 /* EmailVerificationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailVerificationViewModel.swift; sourceTree = "<group>"; };
+		AEF136312DB80B6C00BA7C40 /* PasswordResetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordResetView.swift; sourceTree = "<group>"; };
+		AEF136332DB80B7A00BA7C40 /* PasswordResetViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordResetViewModel.swift; sourceTree = "<group>"; };
+		AEF136362DB80BA300BA7C40 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		AEF136382DB80BB000BA7C40 /* RegisterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewModel.swift; sourceTree = "<group>"; };
+		AEF1363B2DB80C3700BA7C40 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		AEF1363D2DB80C5B00BA7C40 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		AEF136432DB80D2C00BA7C40 /* UIApplication+RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIApplication+RootViewController.swift"; sourceTree = "<group>"; };
+		AEF136452DB80D6300BA7C40 /* Extensions - String+Validation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extensions - String+Validation.swift"; sourceTree = "<group>"; };
+		AEF136472DB8DFFC00BA7C40 /* CropFrameOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CropFrameOverlay.swift; sourceTree = "<group>"; };
+		AEF136922DB9299600BA7C40 /* Canvas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Canvas.swift; sourceTree = "<group>"; };
+		AEF137052DBA3F0200BA7C40 /* TextElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextElement.swift; sourceTree = "<group>"; };
+		AEF137072DBA3F4200BA7C40 /* TextEditingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEditingView.swift; sourceTree = "<group>"; };
+		AEF137092DBA4C1300BA7C40 /* ImageFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageFilter.swift; sourceTree = "<group>"; };
+		AEF1377C2DBA73CD00BA7C40 /* PrimaryTextFieldModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryTextFieldModifier.swift; sourceTree = "<group>"; };
+		AEF1377F2DBA797100BA7C40 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		AEF137822DBA7BD300BA7C40 /* CGSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGSize.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		AEF135F12DB8037500BA7C40 /* AezakmiEditPhoto */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = AezakmiEditPhoto;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		AEF135EC2DB8037500BA7C40 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AEF136152DB8058B00BA7C40 /* GoogleSignInSwift in Frameworks */,
+				AEF1360E2DB8054800BA7C40 /* FirebaseCore in Frameworks */,
+				AEF136132DB8058B00BA7C40 /* GoogleSignIn in Frameworks */,
+				AEF1360C2DB8054800BA7C40 /* FirebaseAuth in Frameworks */,
+				AEF136102DB8054800BA7C40 /* FirebaseFirestore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -32,7 +94,7 @@
 		AEF135E62DB8037500BA7C40 = {
 			isa = PBXGroup;
 			children = (
-				AEF135F12DB8037500BA7C40 /* AezakmiEditPhoto */,
+				AEF136052DB804BD00BA7C40 /* AezakmiEditPhoto */,
 				AEF135F02DB8037500BA7C40 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +105,122 @@
 				AEF135EF2DB8037500BA7C40 /* AezakmiEditPhoto.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		AEF136012DB804BD00BA7C40 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AEF136002DB804BD00BA7C40 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AEF136052DB804BD00BA7C40 /* AezakmiEditPhoto */ = {
+			isa = PBXGroup;
+			children = (
+				AEF136012DB804BD00BA7C40 /* Preview Content */,
+				AEF136422DB80D1000BA7C40 /* Helpers */,
+				AEF1377E2DBA773300BA7C40 /* ViewModifiers */,
+				AEF1361F2DB80A1C00BA7C40 /* AuthService.swift */,
+				AEF1361D2DB809D300BA7C40 /* AppState.swift */,
+				AEF136022DB804BD00BA7C40 /* AezakmiEditPhotoApp.swift */,
+				AEF137812DBA7AFF00BA7C40 /* MainView */,
+				AEF1362B2DB80AFD00BA7C40 /* ImageEditor */,
+				AEF136302DB80B4F00BA7C40 /* EmailVerificationScreen */,
+				AEF136352DB80B8C00BA7C40 /* PasswordResetScreen */,
+				AEF1363A2DB80BC200BA7C40 /* RegisterScreen */,
+				AEF1363F2DB80C7100BA7C40 /* LoginScreen */,
+				AEF1361C2DB808BA00BA7C40 /* Info.plist */,
+				AEF1361A2DB8088700BA7C40 /* GoogleService-Info.plist */,
+				AEF136032DB804BD00BA7C40 /* Assets.xcassets */,
+			);
+			path = AezakmiEditPhoto;
+			sourceTree = "<group>";
+		};
+		AEF1362B2DB80AFD00BA7C40 /* ImageEditor */ = {
+			isa = PBXGroup;
+			children = (
+				AEF137842DBA82BE00BA7C40 /* ImageEditor */,
+				AEF137052DBA3F0200BA7C40 /* TextElement.swift */,
+				AEF137072DBA3F4200BA7C40 /* TextEditingView.swift */,
+				AEF136472DB8DFFC00BA7C40 /* CropFrameOverlay.swift */,
+				AEF136232DB80A9700BA7C40 /* ImagePicker.swift */,
+				AEF136922DB9299600BA7C40 /* Canvas.swift */,
+				AEF137092DBA4C1300BA7C40 /* ImageFilter.swift */,
+			);
+			path = ImageEditor;
+			sourceTree = "<group>";
+		};
+		AEF136302DB80B4F00BA7C40 /* EmailVerificationScreen */ = {
+			isa = PBXGroup;
+			children = (
+				AEF1362C2DB80B1800BA7C40 /* EmailVerificationView.swift */,
+				AEF1362E2DB80B3E00BA7C40 /* EmailVerificationViewModel.swift */,
+			);
+			path = EmailVerificationScreen;
+			sourceTree = "<group>";
+		};
+		AEF136352DB80B8C00BA7C40 /* PasswordResetScreen */ = {
+			isa = PBXGroup;
+			children = (
+				AEF136312DB80B6C00BA7C40 /* PasswordResetView.swift */,
+				AEF136332DB80B7A00BA7C40 /* PasswordResetViewModel.swift */,
+			);
+			path = PasswordResetScreen;
+			sourceTree = "<group>";
+		};
+		AEF1363A2DB80BC200BA7C40 /* RegisterScreen */ = {
+			isa = PBXGroup;
+			children = (
+				AEF136362DB80BA300BA7C40 /* RegisterView.swift */,
+				AEF136382DB80BB000BA7C40 /* RegisterViewModel.swift */,
+			);
+			path = RegisterScreen;
+			sourceTree = "<group>";
+		};
+		AEF1363F2DB80C7100BA7C40 /* LoginScreen */ = {
+			isa = PBXGroup;
+			children = (
+				AEF1363B2DB80C3700BA7C40 /* LoginView.swift */,
+				AEF1363D2DB80C5B00BA7C40 /* LoginViewModel.swift */,
+			);
+			path = LoginScreen;
+			sourceTree = "<group>";
+		};
+		AEF136422DB80D1000BA7C40 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				AEF136432DB80D2C00BA7C40 /* UIApplication+RootViewController.swift */,
+				AEF136452DB80D6300BA7C40 /* Extensions - String+Validation.swift */,
+				AEF137822DBA7BD300BA7C40 /* CGSize.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		AEF1377E2DBA773300BA7C40 /* ViewModifiers */ = {
+			isa = PBXGroup;
+			children = (
+				AEF1377C2DBA73CD00BA7C40 /* PrimaryTextFieldModifier.swift */,
+			);
+			path = ViewModifiers;
+			sourceTree = "<group>";
+		};
+		AEF137812DBA7AFF00BA7C40 /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				AEF136212DB80A7600BA7C40 /* MainView.swift */,
+				AEF1377F2DBA797100BA7C40 /* MainViewModel.swift */,
+			);
+			path = MainView;
+			sourceTree = "<group>";
+		};
+		AEF137842DBA82BE00BA7C40 /* ImageEditor */ = {
+			isa = PBXGroup;
+			children = (
+				AEF136292DB80AEE00BA7C40 /* ImageEditorViewModel.swift */,
+				AEF136272DB80ADF00BA7C40 /* ImageEditorView.swift */,
+			);
+			path = ImageEditor;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -60,11 +238,13 @@
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				AEF135F12DB8037500BA7C40 /* AezakmiEditPhoto */,
-			);
 			name = AezakmiEditPhoto;
 			packageProductDependencies = (
+				AEF1360B2DB8054800BA7C40 /* FirebaseAuth */,
+				AEF1360D2DB8054800BA7C40 /* FirebaseCore */,
+				AEF1360F2DB8054800BA7C40 /* FirebaseFirestore */,
+				AEF136122DB8058B00BA7C40 /* GoogleSignIn */,
+				AEF136142DB8058B00BA7C40 /* GoogleSignInSwift */,
 			);
 			productName = AezakmiEditPhoto;
 			productReference = AEF135EF2DB8037500BA7C40 /* AezakmiEditPhoto.app */;
@@ -94,6 +274,10 @@
 			);
 			mainGroup = AEF135E62DB8037500BA7C40;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				AEF1360A2DB8054800BA7C40 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				AEF136112DB8058B00BA7C40 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = AEF135F02DB8037500BA7C40 /* Products */;
 			projectDirPath = "";
@@ -109,6 +293,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AEF136062DB804BD00BA7C40 /* Preview Assets.xcassets in Resources */,
+				AEF1361B2DB8088700BA7C40 /* GoogleService-Info.plist in Resources */,
+				AEF136072DB804BD00BA7C40 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +306,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AEF137832DBA7BD300BA7C40 /* CGSize.swift in Sources */,
+				AEF137082DBA3F4200BA7C40 /* TextEditingView.swift in Sources */,
+				AEF136342DB80B7A00BA7C40 /* PasswordResetViewModel.swift in Sources */,
+				AEF1362A2DB80AEE00BA7C40 /* ImageEditorViewModel.swift in Sources */,
+				AEF136322DB80B6C00BA7C40 /* PasswordResetView.swift in Sources */,
+				AEF1362F2DB80B3E00BA7C40 /* EmailVerificationViewModel.swift in Sources */,
+				AEF136082DB804BD00BA7C40 /* AezakmiEditPhotoApp.swift in Sources */,
+				AEF136282DB80ADF00BA7C40 /* ImageEditorView.swift in Sources */,
+				AEF136222DB80A7600BA7C40 /* MainView.swift in Sources */,
+				AEF1362D2DB80B1800BA7C40 /* EmailVerificationView.swift in Sources */,
+				AEF1363E2DB80C5B00BA7C40 /* LoginViewModel.swift in Sources */,
+				AEF1377D2DBA73CD00BA7C40 /* PrimaryTextFieldModifier.swift in Sources */,
+				AEF1363C2DB80C3700BA7C40 /* LoginView.swift in Sources */,
+				AEF136442DB80D2C00BA7C40 /* UIApplication+RootViewController.swift in Sources */,
+				AEF136932DB9299600BA7C40 /* Canvas.swift in Sources */,
+				AEF1370A2DBA4C1300BA7C40 /* ImageFilter.swift in Sources */,
+				AEF136462DB80D6300BA7C40 /* Extensions - String+Validation.swift in Sources */,
+				AEF136392DB80BB000BA7C40 /* RegisterViewModel.swift in Sources */,
+				AEF136242DB80A9700BA7C40 /* ImagePicker.swift in Sources */,
+				AEF136372DB80BA300BA7C40 /* RegisterView.swift in Sources */,
+				AEF1361E2DB809D300BA7C40 /* AppState.swift in Sources */,
+				AEF137062DBA3F0200BA7C40 /* TextElement.swift in Sources */,
+				AEF136482DB8DFFC00BA7C40 /* CropFrameOverlay.swift in Sources */,
+				AEF136202DB80A1C00BA7C40 /* AuthService.swift in Sources */,
+				AEF137802DBA797100BA7C40 /* MainViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,6 +467,10 @@
 				DEVELOPMENT_TEAM = 9Y94J8V38R;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AezakmiEditPhoto/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Приложению требуется доступ к камере для съемки фото";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Разрешите доступ для сохранения отредактированных фотографий";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Приложению требуется доступ к фотогалерее";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -284,6 +500,10 @@
 				DEVELOPMENT_TEAM = 9Y94J8V38R;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AezakmiEditPhoto/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Приложению требуется доступ к камере для съемки фото";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Разрешите доступ для сохранения отредактированных фотографий";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Приложению требуется доступ к фотогалерее";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -324,6 +544,53 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		AEF1360A2DB8054800BA7C40 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.12.0;
+			};
+		};
+		AEF136112DB8058B00BA7C40 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AEF1360B2DB8054800BA7C40 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AEF1360A2DB8054800BA7C40 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		AEF1360D2DB8054800BA7C40 /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AEF1360A2DB8054800BA7C40 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCore;
+		};
+		AEF1360F2DB8054800BA7C40 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AEF1360A2DB8054800BA7C40 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		AEF136122DB8058B00BA7C40 /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AEF136112DB8058B00BA7C40 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+		AEF136142DB8058B00BA7C40 /* GoogleSignInSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AEF136112DB8058B00BA7C40 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignInSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = AEF135E72DB8037500BA7C40 /* Project object */;
 }
